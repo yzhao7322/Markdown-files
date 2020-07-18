@@ -126,7 +126,7 @@ $\hat{\alpha}_b=\begin{bmatrix}
 
 - True kernel coefficient functions $\delta_(t)$, $\alpha(t,s)$, and $\beta(t,s)$
 
-  <img src="/Users/ZHAO/Desktop/true_kernel.pdf" width=980 height=250/>
+  <img src="https://github.com/yzhao7322/Image-Figures/blob/master/true_kernel.pdf" width=980 height=250/>
 
 - For the case of Bernstein
 
