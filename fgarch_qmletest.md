@@ -4,8 +4,6 @@ We first generate a simple FGARCH(1,1) process `sample_data`, with the sample si
 $$\alpha(t,s) = 4t(1-t)s(1-s)+3(\sin(t)(\cos(s)-1)^2),$$
 $$\beta(t,s)=8t(1-t)s(1-s)+6(\sin(t)(\cos(s)-1)^2),$$ for $t,s\in[0,1]$.
 
-![first equation](https://latex.codecogs.com/gif.latex?%5Cint%20%5Calpha%28t%2Cs%29x%28s%29ds)
-
 ```R
 set.seed(25)
 sample_data=dgp.fgarch(50, 200)
@@ -126,7 +124,7 @@ $\hat{\alpha}_b=\begin{bmatrix}
 
 - True kernel coefficient functions $\delta_(t)$, $\alpha(t,s)$, and $\beta(t,s)$
 
-![](https://github.com/yzhao7322/Image-Figures/blob/master/true_kernel.pdf)
+  <img src="/Users/ZHAO/Desktop/true_kernel.pdf" width=980 height=250/>
 
 - For the case of Bernstein
 
